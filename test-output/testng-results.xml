@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="855" started-at="2019-06-30T06:18:55Z" finished-at="2019-06-30T06:18:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="855" started-at="2019-06-30T06:18:55Z" finished-at="2019-06-30T06:18:56Z">
+      <class name="utils.Read_Excel">
+        <test-method status="PASS" signature="read_data()[pri:0, instance:utils.Read_Excel@604ed9f0]" name="read_data" duration-ms="808" started-at="2019-06-30T06:18:55Z" finished-at="2019-06-30T06:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_data -->
+      </class> <!-- utils.Read_Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

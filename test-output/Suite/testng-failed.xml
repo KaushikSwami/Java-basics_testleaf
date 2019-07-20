@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="username" value="Demosalesmanager"/>
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="Practice_TestNG.Delete_Lead">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="delete_lead"/>
+        </methods>
+      </class> <!-- Practice_TestNG.Delete_Lead -->
+      <class name="Practice_TestNG.Merge_Lead">
+        <methods>
+          <include name="merge_lead"/>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Practice_TestNG.Merge_Lead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
